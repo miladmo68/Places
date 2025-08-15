@@ -1,7 +1,6 @@
 <h1 align="center">🗺️ Places</h1>
 
 <p align="center">
-  <a href="https://miladmo68.github.io/Places/"><b>🔗 Live Demo</b></a> •
   <a href="https://github.com/miladmo68/Places"><b>📦 Repository</b></a>
 </p>
 
@@ -14,7 +13,8 @@
 ## ​ Screenshot
 
 <p align="center">
-  <img width="1920" height="1080" alt="Places App" src="https://github.com/user-attachments/assets/your-image-id.png" />
+<img width="2880" height="1582" alt="Place-Picker" src="https://github.com/user-attachments/assets/e6fb2949-2a3e-4157-8032-a14fa581c820" />
+
 </p>
 
 ---
