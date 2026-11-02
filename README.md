@@ -1,74 +1,73 @@
-<h1 align="center">🗺️ Places</h1>
+<div align="center">
+
+# 🗺️ Places
+
+A MERN app where users share places with photos and locations.
+
+<a href="https://github.com/miladmo68/Places"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
+
+</div>
 
 <p align="center">
-  <a href="https://github.com/miladmo68/Places"><b>📦 Repository</b></a>
+  <img src="https://github.com/user-attachments/assets/e6fb2949-2a3e-4157-8032-a14fa581c820" alt="Places screenshot" width="100%" />
 </p>
 
-<p align="center">
-  A clean and responsive web app (frontend + backend) structure for managing places — built with a solid React/Vite frontend and a backend folder ready for future API integration or server logic expansions.
-</p>
+## ✨ Features
 
----
+- Users and their places
+- Add, edit and delete places
+- Map view for each place
+- Express and MongoDB backend
 
-## ​ Screenshot
+## 🛠️ Tech Stack
 
-<p align="center">
-<img width="2880" height="1582" alt="Place-Picker" src="https://github.com/user-attachments/assets/e6fb2949-2a3e-4157-8032-a14fa581c820" />
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-</p>
+> [!NOTE]
+> This project needs its own backend, database or API keys, so it runs locally rather than as a static demo.
 
----
+## 🚀 Getting Started
 
-## ​ Tech Stack
+**Prerequisites:** [Node.js](https://nodejs.org/) 18 or newer · A MongoDB database (local or MongoDB Atlas)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-latest-e07a5f?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESLint-configured-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prettier-setup-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
-</p>
-
----
-
-## ​ Features
-
-| Feature | Description |
-| --- | --- |
-|  **Project Boilerplate** | Structured front-end (React + Vite) with backend folder in place for API logic |
-|  **Modular Setup** | Separate directories allow clean separation of frontend and backend work |
-|  **Responsive Foundation** | Frontend flexibly designed for different device formats |
-|  **Extensible** | Ready for connecting to databases, external APIs, or adding server-side logic |
-|  **Consistent Code** | ESLint + Prettier ensures style consistency across codebase |
-
----
-
-<p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
-</p>
-
----
-
-## ​ Getting Started
+**Clone**
 
 ```bash
-# 1) Clone the repository
 git clone https://github.com/miladmo68/Places.git
 cd Places
+```
 
-# 2) Navigate to frontend
+**backend**
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+**frontend**
+
+```bash
 cd frontend
 npm install
-npm run dev
+npm start
+```
 
-# 3) (Optional) Backend setup
-cd ../backend
-# install your backend dependencies (e.g., npm install or pip install)
-# start your server (e.g., npm run serve or node index.js)
+## 📁 Project Structure
 
-# 4) When ready, build for production
-cd ../frontend
-npm run build
+```
+Places/
+├── backend/
+└── frontend/
+```
+
+## 👤 Author
+
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
+
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
+
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
